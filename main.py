@@ -2,6 +2,7 @@ import telebot
 import requests
 import io
 from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
+import os
 
 API_TOKEN = os.getenv("BOT_TOKEN")
 POLLINATIONS_KEY = 'sk_tFOlAJkk1FPSeR4LyuV9zcXSXGKbBi2g'
